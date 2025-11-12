@@ -110,8 +110,13 @@ def z_score(x, mu, sigma):
     Returns the z-score of x
     """
 
-    # Participating group member names go in this comment
+
+    # Participating group member names go in this comment - Miles Oehm
 
     # Your code goes between this comment and the return statement
+    return (x - mu) / sigma
 
-    return  # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+print("The Z-Score for Population 1 is - ", z_score(140, mean(population1), stdev(population1, mean(population1))))
+print("The Z-Score for Population 2 is - ", z_score(-167, mean(population2), stdev(population2, mean(population2))))
+
+      # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
